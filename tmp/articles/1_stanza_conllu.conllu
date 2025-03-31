@@ -1,0 +1,316 @@
+# text = До $30 000 способна принести кибербандитам успешная атака всего на один банкомат.
+# sent_id = 0
+1	До	до	ADP	_	_	2	case	_	start_char=0|end_char=2
+2	$	$	SYM	_	_	4	obl	_	start_char=3|end_char=4|SpaceAfter=No
+3	30 000	30 000	NUM	_	NumType=Card	2	nummod	_	start_char=4|end_char=10
+4	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=11|end_char=19
+5	принести	принести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=20|end_char=28
+6	кибербандитам	кибербандит	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	start_char=29|end_char=42
+7	успешная	успешный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=43|end_char=51
+8	атака	атака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	obj	_	start_char=52|end_char=57
+9	всего	всего	PART	_	_	12	advmod	_	start_char=58|end_char=63
+10	на	на	ADP	_	_	12	case	_	start_char=64|end_char=66
+11	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	12	nummod	_	start_char=67|end_char=71
+12	банкомат	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=72|end_char=80|SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	start_char=80|end_char=81|SpacesAfter=\n
+
+# text = В цифровом пространстве активно распространяется новый тип вредоносного ПО для банкоматов, который поражает своей эффективностью — его успех, по заверениям авторов, достигает 99%.
+# sent_id = 1
+1	В	в	ADP	_	_	3	case	_	start_char=82|end_char=83
+2	цифровом	цифровой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=84|end_char=92
+3	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	start_char=93|end_char=105
+4	активно	активно	ADV	_	Degree=Pos	5	advmod	_	start_char=106|end_char=113
+5	распространяется	распространяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=114|end_char=130
+6	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=131|end_char=136
+7	тип	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=137|end_char=140
+8	вредоносного	вредоносный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=141|end_char=153
+9	ПО	по	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=154|end_char=156
+10	для	для	ADP	_	_	11	case	_	start_char=157|end_char=160
+11	банкоматов	банкомат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=161|end_char=171|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=171|end_char=172
+13	который	который	PRON	_	Case=Nom|PronType=Int,Rel	14	nsubj	_	start_char=173|end_char=180
+14	поражает	поражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=181|end_char=189
+15	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=190|end_char=195
+16	эффективностью	эффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=196|end_char=210
+17	—	—	PUNCT	_	_	25	punct	_	start_char=211|end_char=212
+18	его	его	DET	_	Poss=Yes|PronType=Prs	19	det	_	start_char=213|end_char=216
+19	успех	успех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	start_char=217|end_char=222|SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	start_char=222|end_char=223
+21	по	по	ADP	_	_	22	case	_	start_char=224|end_char=226
+22	заверениям	заверение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	parataxis	_	start_char=227|end_char=237
+23	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	start_char=238|end_char=245|SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	start_char=245|end_char=246
+25	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	start_char=247|end_char=256
+26	99	99	NUM	_	NumType=Card	27	nummod	_	start_char=257|end_char=259|SpaceAfter=No
+27	%	%	SYM	_	_	25	obl	_	start_char=259|end_char=260|SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	start_char=260|end_char=261
+
+# text = Этот зловредный софт, получивший название «EU ATM Malware», способен взломать почти любой банкомат в Европе и около 60% банкоматов по всему миру, что представляет значительную угрозу для глобальной банковской безопасности.
+# sent_id = 2
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=262|end_char=266
+2	зловредный	зловредный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=267|end_char=277
+3	софт	софт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=278|end_char=282|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=282|end_char=283
+5	получивший	получить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=284|end_char=294
+6	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=295|end_char=303
+7	«	"	PUNCT	_	_	8	punct	_	start_char=304|end_char=305|SpaceAfter=No
+8	EU	EU	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=305|end_char=307
+9	ATM	ATM	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=308|end_char=311
+10	Malware	Malware	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=312|end_char=319|SpaceAfter=No
+11	»	"	PUNCT	_	_	10	punct	_	start_char=319|end_char=320|SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	start_char=320|end_char=321
+13	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=322|end_char=330
+14	взломать	взломать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=331|end_char=339
+15	почти	почти	ADV	_	Degree=Pos	16	obl	_	start_char=340|end_char=345
+16	любой	любой	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	start_char=346|end_char=351
+17	банкомат	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=352|end_char=360
+18	в	в	ADP	_	_	19	case	_	start_char=361|end_char=362
+19	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	start_char=363|end_char=369
+20	и	и	CCONJ	_	_	23	cc	_	start_char=370|end_char=371
+21	около	около	ADP	_	_	23	case	_	start_char=372|end_char=377
+22	60	60	NUM	_	NumType=Card	23	nummod	_	start_char=378|end_char=380|SpaceAfter=No
+23	%	%	SYM	_	_	17	conj	_	start_char=380|end_char=381
+24	банкоматов	банкомат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	start_char=382|end_char=392
+25	по	по	ADP	_	_	27	case	_	start_char=393|end_char=395
+26	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	27	det	_	start_char=396|end_char=401
+27	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	start_char=402|end_char=406|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	start_char=406|end_char=407
+29	что	что	PRON	_	Case=Nom|PronType=Int,Rel	30	nsubj	_	start_char=408|end_char=411
+30	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	start_char=412|end_char=424
+31	значительную	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=425|end_char=437
+32	угрозу	угроза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	start_char=438|end_char=444
+33	для	для	ADP	_	_	36	case	_	start_char=445|end_char=448
+34	глобальной	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=449|end_char=459
+35	банковской	банковский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=460|end_char=470
+36	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=471|end_char=483|SpaceAfter=No
+37	.	.	PUNCT	_	_	13	punct	_	start_char=483|end_char=484|SpacesAfter=\n
+
+# text = «EU ATM Malware» может атаковать банкоматы ведущих производителей, таких как Diebold Nixdorf, Hyosung, Oki, Bank of America, NCR, GRG и Hitachi.
+# sent_id = 3
+1	«	"	PUNCT	_	_	2	punct	_	start_char=485|end_char=486|SpaceAfter=No
+2	EU	EU	PROPN	_	Foreign=Yes	6	nsubj	_	start_char=486|end_char=488
+3	ATM	ATM	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=489|end_char=492
+4	Malware	Malware	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=493|end_char=500|SpaceAfter=No
+5	»	"	PUNCT	_	_	2	punct	_	start_char=500|end_char=501
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=502|end_char=507
+7	атаковать	атаковать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=508|end_char=517
+8	банкоматы	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=518|end_char=527
+9	ведущих	ведущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=528|end_char=535
+10	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=536|end_char=550|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=550|end_char=551
+12	таких	такой	DET	_	Case=Gen|Number=Plur|PronType=Dem	10	det	_	start_char=552|end_char=557
+13	как	как	SCONJ	_	_	14	mark	_	start_char=558|end_char=561
+14	Diebold	Diebold	PROPN	_	Foreign=Yes	12	obl	_	start_char=562|end_char=569
+15	Nixdorf	Nixdorf	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=570|end_char=577|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=577|end_char=578
+17	Hyosung	Hyosung	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=579|end_char=586|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=586|end_char=587
+19	Oki	Oki	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=588|end_char=591|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=591|end_char=592
+21	Bank	Bank	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=593|end_char=597
+22	of	of	X	_	Foreign=Yes	14	flat:foreign	_	start_char=598|end_char=600
+23	America	America	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=601|end_char=608|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=608|end_char=609
+25	NCR	NCR	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=610|end_char=613|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=613|end_char=614
+27	GRG	GRG	PROPN	_	Foreign=Yes	14	conj	_	start_char=615|end_char=618
+28	и	и	CCONJ	_	_	29	cc	_	start_char=619|end_char=620
+29	Hitachi	Хитачи	PROPN	_	Foreign=Yes	14	conj	_	start_char=621|end_char=628|SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	start_char=628|end_char=629
+
+# text = Разработчики утверждают, что с его помощью можно вывести до 30 000 долларов с одного банкомата, что делает его привлекательным инструментом для киберпреступников.
+# sent_id = 4
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=630|end_char=642
+2	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=643|end_char=653|SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	start_char=653|end_char=654
+4	что	что	SCONJ	_	_	8	mark	_	start_char=655|end_char=658
+5	с	с	ADP	_	_	7	case	_	start_char=659|end_char=660
+6	его	его	DET	_	Poss=Yes|PronType=Prs	7	det	_	start_char=661|end_char=664
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=665|end_char=672
+8	можно	можно	ADV	_	Degree=Pos	2	ccomp	_	start_char=673|end_char=678
+9	вывести	вывести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=679|end_char=686
+10	до	до	ADP	_	_	12	case	_	start_char=687|end_char=689
+11	30 000	30 000	NUM	_	NumType=Card	12	nummod	_	start_char=690|end_char=696
+12	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=697|end_char=705
+13	с	с	ADP	_	_	15	case	_	start_char=706|end_char=707
+14	одного	один	NUM	_	Case=Gen|Gender=Masc|NumType=Card	15	nummod	_	start_char=708|end_char=714
+15	банкомата	банкомат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=715|end_char=724|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=724|end_char=725
+17	что	что	PRON	_	Case=Nom|PronType=Int,Rel	18	nsubj	_	start_char=726|end_char=729
+18	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=730|end_char=736
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=737|end_char=740
+20	привлекательным	привлекательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=741|end_char=756
+21	инструментом	инструмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	start_char=757|end_char=769
+22	для	для	ADP	_	_	23	case	_	start_char=770|end_char=773
+23	киберпреступников	киберпреступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=774|end_char=791|SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	start_char=791|end_char=792|SpacesAfter=\n
+
+# text = Одной из ключевых особенностей данного программного обеспечения является его полная автоматизация, что значительно упрощает внедрение и эксплуатацию.
+# sent_id = 5
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem|NumType=Card	8	obl	_	start_char=793|end_char=798
+2	из	из	ADP	_	_	4	case	_	start_char=799|end_char=801
+3	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	start_char=802|end_char=810
+4	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=811|end_char=823
+5	данного	данный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=824|end_char=831
+6	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=832|end_char=844
+7	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=845|end_char=856
+8	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=857|end_char=865
+9	его	его	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=866|end_char=869
+10	полная	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=870|end_char=876
+11	автоматизация	автоматизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=877|end_char=890|SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	start_char=890|end_char=891
+13	что	что	PRON	_	Case=Nom|PronType=Int,Rel	15	nsubj	_	start_char=892|end_char=895
+14	значительно	значительно	ADV	_	Degree=Pos	15	advmod	_	start_char=896|end_char=907
+15	упрощает	упрощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=908|end_char=916
+16	внедрение	внедрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=917|end_char=926
+17	и	и	CCONJ	_	_	18	cc	_	start_char=927|end_char=928
+18	эксплуатацию	эксплуатация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	start_char=929|end_char=941|SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	start_char=941|end_char=942
+
+# text = Однако для тех, кто предпочитает более активное вмешательство и филигранную настройку, предусмотрен режим ручного управления.
+# sent_id = 6
+1	Однако	однако	ADV	_	Degree=Pos	14	advmod	_	start_char=943|end_char=949
+2	для	для	ADP	_	_	3	case	_	start_char=950|end_char=953
+3	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	14	det	_	start_char=954|end_char=957|SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	start_char=957|end_char=958
+5	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	6	nsubj	_	start_char=959|end_char=962
+6	предпочитает	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=963|end_char=975
+7	более	более	ADV	_	Degree=Cmp	8	obl	_	start_char=976|end_char=981
+8	активное	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=982|end_char=990
+9	вмешательство	вмешательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=991|end_char=1004
+10	и	и	CCONJ	_	_	12	cc	_	start_char=1005|end_char=1006
+11	филигранную	филигранный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1007|end_char=1018
+12	настройку	настройка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	start_char=1019|end_char=1028|SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	start_char=1028|end_char=1029
+14	предусмотрен	предусмотреть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1030|end_char=1042
+15	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	start_char=1043|end_char=1048
+16	ручного	ручной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=1049|end_char=1056
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=1057|end_char=1067|SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	start_char=1067|end_char=1068|SpacesAfter=\n
+
+# text = Разработчики софта предлагают весьма гибкие условия покупки своего творения, включая: Ежемесячную подписку;
+# sent_id = 7
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1069|end_char=1081
+2	софта	софт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=1082|end_char=1087
+3	предлагают	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1088|end_char=1098
+4	весьма	весьма	ADV	_	Degree=Pos	5	obl	_	start_char=1099|end_char=1105
+5	гибкие	гибкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=1106|end_char=1112
+6	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=1113|end_char=1120
+7	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1121|end_char=1128
+8	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	start_char=1129|end_char=1135
+9	творения	творение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=1136|end_char=1144|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1144|end_char=1145
+11	включая	включая	ADV	_	Degree=Pos	9	advmod	_	start_char=1146|end_char=1153|SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	start_char=1153|end_char=1154|SpacesAfter=\n
+13	Ежемесячную	ежемесячный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=1155|end_char=1166
+14	подписку	подписка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	parataxis	_	start_char=1167|end_char=1175|SpaceAfter=No
+15	;	;	PUNCT	_	_	3	punct	_	start_char=1175|end_char=1176|SpacesAfter=\n
+
+# text = Тестовый период на три дня;
+# sent_id = 8
+1	Тестовый	тестовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=1177|end_char=1185
+2	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1186|end_char=1192
+3	на	на	ADP	_	_	5	case	_	start_char=1193|end_char=1195
+4	три	три	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	5	nummod	_	start_char=1196|end_char=1199
+5	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1200|end_char=1203|SpaceAfter=No
+6	;	;	PUNCT	_	_	2	punct	_	start_char=1203|end_char=1204|SpacesAfter=\n
+
+# text = Первоначальный взнос плюс доля от прибыли успешных атак на банкоматы.
+# sent_id = 9
+1	Первоначальный	первоначальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=1205|end_char=1219
+2	взнос	взнос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1220|end_char=1225
+3	плюс	плюс	ADP	_	_	4	case	_	start_char=1226|end_char=1230
+4	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	start_char=1231|end_char=1235
+5	от	от	ADP	_	_	6	case	_	start_char=1236|end_char=1238
+6	прибыли	прибыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=1239|end_char=1246
+7	успешных	успешный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=1247|end_char=1255
+8	атак	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=1256|end_char=1260
+9	на	на	ADP	_	_	10	case	_	start_char=1261|end_char=1263
+10	банкоматы	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	start_char=1264|end_char=1273|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	start_char=1273|end_char=1274|SpacesAfter=\n
+
+# text = Таким образом, европейский банковский сектор, известный своими строгими мерами безопасности, столкнулся с новой серьёзной угрозой.
+# sent_id = 10
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=1275|end_char=1280
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	parataxis	_	start_char=1281|end_char=1288|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1288|end_char=1289
+4	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1290|end_char=1301
+5	банковский	банковский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1302|end_char=1312
+6	сектор	сектор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=1313|end_char=1319|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=1319|end_char=1320
+8	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1321|end_char=1330
+9	своими	свой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	start_char=1331|end_char=1337
+10	строгими	строгий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	start_char=1338|end_char=1346
+11	мерами	мера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	start_char=1347|end_char=1353
+12	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=1354|end_char=1366|SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	start_char=1366|end_char=1367
+14	столкнулся	столкнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1368|end_char=1378
+15	с	с	ADP	_	_	18	case	_	start_char=1379|end_char=1380
+16	новой	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=1381|end_char=1386
+17	серьёзной	серьезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=1387|end_char=1396
+18	угрозой	угроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=1397|end_char=1404|SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	start_char=1404|end_char=1405
+
+# text = Появление «EU ATM Malware» подчёркивает важность усиления мер кибербезопасности.
+# sent_id = 11
+1	Появление	появление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1406|end_char=1415
+2	«	"	PUNCT	_	_	3	punct	_	start_char=1416|end_char=1417|SpaceAfter=No
+3	EU	EU	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=1417|end_char=1419
+4	ATM	ATM	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1420|end_char=1423
+5	Malware	Malware	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1424|end_char=1431|SpaceAfter=No
+6	»	"	PUNCT	_	_	3	punct	_	start_char=1431|end_char=1432
+7	подчёркивает	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1433|end_char=1445
+8	важность	важность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1446|end_char=1454
+9	усиления	усиление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=1455|end_char=1463
+10	мер	мера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=1464|end_char=1467
+11	кибербезопасности	кибербезопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1468|end_char=1485|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	start_char=1485|end_char=1486|SpacesAfter=\n
+
+# text = Банковские учреждения не только в Европе, но и по всему миру, должны адаптироваться к новой угрозе и разработать стратегии для защиты своих систем от подобных атак.
+# sent_id = 12
+1	Банковские	банковский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=1487|end_char=1497
+2	учреждения	учреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=1498|end_char=1508
+3	не	не	PART	_	_	4	advmod	_	start_char=1509|end_char=1511
+4	только	только	PART	_	_	6	advmod	_	start_char=1512|end_char=1518
+5	в	в	ADP	_	_	6	case	_	start_char=1519|end_char=1520
+6	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	start_char=1521|end_char=1527|SpaceAfter=No
+7	,	,	PUNCT	_	_	12	punct	_	start_char=1527|end_char=1528
+8	но	но	CCONJ	_	_	12	cc	_	start_char=1529|end_char=1531
+9	и	и	PART	_	_	8	fixed	_	start_char=1532|end_char=1533
+10	по	по	ADP	_	_	12	case	_	start_char=1534|end_char=1536
+11	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	12	det	_	start_char=1537|end_char=1542
+12	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	conj	_	start_char=1543|end_char=1547|SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	start_char=1547|end_char=1548
+14	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=1549|end_char=1555
+15	адаптироваться	адаптироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	start_char=1556|end_char=1570
+16	к	к	ADP	_	_	18	case	_	start_char=1571|end_char=1572
+17	новой	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=1573|end_char=1578
+18	угрозе	угроза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=1579|end_char=1585
+19	и	и	CCONJ	_	_	20	cc	_	start_char=1586|end_char=1587
+20	разработать	разработать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	conj	_	start_char=1588|end_char=1599
+21	стратегии	стратегия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	start_char=1600|end_char=1609
+22	для	для	ADP	_	_	23	case	_	start_char=1610|end_char=1613
+23	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=1614|end_char=1620
+24	своих	свой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	start_char=1621|end_char=1626
+25	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=1627|end_char=1633
+26	от	от	ADP	_	_	28	case	_	start_char=1634|end_char=1636
+27	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	start_char=1637|end_char=1645
+28	атак	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=1646|end_char=1650|SpaceAfter=No
+29	.	.	PUNCT	_	_	14	punct	_	start_char=1650|end_char=1651
+
+# text = Только комплексный и упреждающий подход позволит эффективно противостоять новым вызовам цифровой эпохи.
+# sent_id = 13
+1	Только	только	PART	_	_	2	advmod	_	start_char=1652|end_char=1658
+2	комплексный	комплексный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1659|end_char=1670
+3	и	и	CCONJ	_	_	4	cc	_	start_char=1671|end_char=1672
+4	упреждающий	упреждать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	start_char=1673|end_char=1684
+5	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1685|end_char=1691
+6	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=1692|end_char=1700
+7	эффективно	эффективно	ADV	_	Degree=Pos	8	advmod	_	start_char=1701|end_char=1711
+8	противостоять	противостоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=1712|end_char=1725
+9	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	start_char=1726|end_char=1731
+10	вызовам	вызов	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	8	iobj	_	start_char=1732|end_char=1739
+11	цифровой	цифровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1740|end_char=1748
+12	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1749|end_char=1754|SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	start_char=1754|end_char=1755|SpaceAfter=No
+

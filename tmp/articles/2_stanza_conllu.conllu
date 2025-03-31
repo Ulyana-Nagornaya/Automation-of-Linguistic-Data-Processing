@@ -1,0 +1,436 @@
+# text = Компания хочет сделать ИИ более экологичным, снизив его энергопотребление.
+# sent_id = 14
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=8
+2	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=14
+3	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=15|end_char=22
+4	ИИ	ИИ	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=23|end_char=25
+5	более	более	ADV	_	Degree=Cmp	6	obl	_	start_char=26|end_char=31
+6	экологичным	экологичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	start_char=32|end_char=43|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=43|end_char=44
+8	снизив	снизить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	start_char=45|end_char=51
+9	его	его	DET	_	Poss=Yes|PronType=Prs	10	det	_	start_char=52|end_char=55
+10	энергопотребление	энергопотребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=56|end_char=73|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	start_char=73|end_char=74|SpacesAfter=\n
+
+# text = Современные технологии искусственного интеллекта становятся все более популярными, но их использование сопряжено с значительными энергетическими затратами.
+# sent_id = 15
+1	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=75|end_char=86
+2	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=87|end_char=97
+3	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=98|end_char=112
+4	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=113|end_char=123|SpacesAfter=\n
+5	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=124|end_char=134|SpacesAfter=\n
+6	все	все	PART	_	_	7	advmod	_	start_char=135|end_char=138
+7	более	более	ADV	_	Degree=Cmp	8	obl	_	start_char=139|end_char=144
+8	популярными	популярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	obl	_	start_char=145|end_char=156|SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	start_char=156|end_char=157
+10	но	но	CCONJ	_	_	13	cc	_	start_char=158|end_char=160
+11	их	их	DET	_	Poss=Yes|PronType=Prs	12	det	_	start_char=161|end_char=163
+12	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=164|end_char=177
+13	сопряжено	сопрячь	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	start_char=178|end_char=187
+14	с	с	ADP	_	_	17	case	_	start_char=188|end_char=189
+15	значительными	значительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	start_char=190|end_char=203
+16	энергетическими	энергетический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	start_char=204|end_char=219
+17	затратами	затрата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	start_char=220|end_char=229|SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	start_char=229|end_char=230
+
+# text = Например, интеграция AI в поисковую систему Google привела к десятикратному увеличению энергопотребления по сравнению с традиционными методами поиска.
+# sent_id = 16
+1	Например	например	ADV	_	Degree=Pos	9	parataxis	_	start_char=231|end_char=239|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=239|end_char=240
+3	интеграция	интеграция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=241|end_char=251
+4	AI	AI	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=252|end_char=254
+5	в	в	ADP	_	_	7	case	_	start_char=255|end_char=256
+6	поисковую	поисковый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=257|end_char=266
+7	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=267|end_char=274
+8	Google	Гугл	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=275|end_char=281
+9	привела	привести	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=282|end_char=289
+10	к	к	ADP	_	_	12	case	_	start_char=290|end_char=291
+11	десятикратному	десятикратный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=292|end_char=306
+12	увеличению	увеличение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=307|end_char=317
+13	энергопотребления	энергопотребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=318|end_char=335
+14	по	по	ADP	_	_	18	case	_	start_char=336|end_char=338
+15	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	fixed	_	start_char=339|end_char=348
+16	с	с	ADP	_	_	14	fixed	_	start_char=349|end_char=350
+17	традиционными	традиционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	start_char=351|end_char=364
+18	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	start_char=365|end_char=373
+19	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=374|end_char=380|SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	start_char=380|end_char=381|SpacesAfter=\n
+
+# text = По оценкам Goldman Sachs , к 2030 году потребности центров обработки данных в электроэнергии вырастут на 160%.
+# sent_id = 17
+1	По	по	ADP	_	_	2	case	_	start_char=382|end_char=384
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	parataxis	_	start_char=385|end_char=392
+3	Goldman	Goldman	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=393|end_char=400
+4	Sachs	Sachs	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=401|end_char=406|SpacesAfter=\n
+5	,	,	PUNCT	_	_	2	punct	_	start_char=407|end_char=408
+6	к	к	ADP	_	_	8	case	_	start_char=409|end_char=410
+7	2030	2030	ADJ	_	Degree=Pos	8	amod	_	start_char=411|end_char=415
+8	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	obl	_	start_char=416|end_char=420
+9	потребности	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=421|end_char=432
+10	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=433|end_char=440
+11	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=441|end_char=450
+12	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	start_char=451|end_char=457
+13	в	в	ADP	_	_	14	case	_	start_char=458|end_char=459
+14	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	start_char=460|end_char=474
+15	вырастут	вырасти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=475|end_char=483
+16	на	на	ADP	_	_	18	case	_	start_char=484|end_char=486
+17	160	160	NUM	_	NumType=Card	18	nummod	_	start_char=487|end_char=490|SpaceAfter=No
+18	%	%	SYM	_	_	15	obl	_	start_char=490|end_char=491|SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	start_char=491|end_char=492
+
+# text = Это серьезная проблема, особенно для стран с устаревшими энергосетями, средний возраст которых в США и Европе составляет 50 и 40 лет соответственно.
+# sent_id = 18
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=493|end_char=496
+2	серьезная	серьезный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=497|end_char=506
+3	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=507|end_char=515|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	start_char=515|end_char=516
+5	особенно	особенно	ADV	_	Degree=Pos	7	obl	_	start_char=517|end_char=525
+6	для	для	ADP	_	_	7	case	_	start_char=526|end_char=529
+7	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	parataxis	_	start_char=530|end_char=535
+8	с	с	ADP	_	_	10	case	_	start_char=536|end_char=537
+9	устаревшими	устаревший	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	start_char=538|end_char=549
+10	энергосетями	энергосеть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	start_char=550|end_char=562|SpaceAfter=No
+11	,	,	PUNCT	_	_	19	punct	_	start_char=562|end_char=563
+12	средний	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=564|end_char=571
+13	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=572|end_char=579
+14	которых	который	PRON	_	Case=Gen|PronType=Int,Rel	13	nmod	_	start_char=580|end_char=587
+15	в	в	ADP	_	_	16	case	_	start_char=588|end_char=589
+16	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	19	obl	_	start_char=590|end_char=593
+17	и	и	CCONJ	_	_	18	cc	_	start_char=594|end_char=595
+18	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	conj	_	start_char=596|end_char=602
+19	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=603|end_char=613
+20	50	50	NUM	_	NumType=Card	23	nummod	_	start_char=614|end_char=616
+21	и	и	CCONJ	_	_	22	cc	_	start_char=617|end_char=618
+22	40	40	NUM	_	NumType=Card	20	conj	_	start_char=619|end_char=621
+23	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	start_char=622|end_char=625
+24	соответственно	соответственно	ADV	_	Degree=Pos	23	advmod	_	start_char=626|end_char=640|SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	start_char=640|end_char=641
+
+# text = В 2022 г в США дата-центры потребляли 3% всей электроэнергии, а к 2030 году эта цифра, по прогнозам, вырастет до 8%.
+# sent_id = 19
+1	В	в	ADP	_	_	3	case	_	start_char=642|end_char=643
+2	2022	2022	ADJ	_	Degree=Pos	3	amod	_	start_char=644|end_char=648
+3	г	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=649|end_char=650
+4	в	в	ADP	_	_	5	case	_	start_char=651|end_char=652
+5	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	9	obl	_	start_char=653|end_char=656
+6	дата	дата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=657|end_char=661|SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	start_char=661|end_char=662|SpaceAfter=No
+8	центры	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	appos	_	start_char=662|end_char=668
+9	потребляли	потреблять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=669|end_char=679
+10	3	3	NUM	_	NumType=Card	11	nummod	_	start_char=680|end_char=681|SpaceAfter=No
+11	%	%	SYM	_	_	9	obl	_	start_char=681|end_char=682
+12	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot	13	det	_	start_char=683|end_char=687
+13	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=688|end_char=702|SpaceAfter=No
+14	,	,	PUNCT	_	_	25	punct	_	start_char=702|end_char=703
+15	а	а	CCONJ	_	_	25	cc	_	start_char=704|end_char=705
+16	к	к	ADP	_	_	18	case	_	start_char=706|end_char=707
+17	2030	2030	ADJ	_	Degree=Pos	18	amod	_	start_char=708|end_char=712
+18	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	obl	_	start_char=713|end_char=717
+19	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	start_char=718|end_char=721
+20	цифра	цифра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	start_char=722|end_char=727|SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	start_char=727|end_char=728
+22	по	по	ADP	_	_	23	case	_	start_char=729|end_char=731
+23	прогнозам	прогноз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	25	parataxis	_	start_char=732|end_char=741|SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	start_char=741|end_char=742
+25	вырастет	вырасти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	start_char=743|end_char=751
+26	до	до	ADP	_	_	28	case	_	start_char=752|end_char=754
+27	8	8	NUM	_	NumType=Card	28	nummod	_	start_char=755|end_char=756|SpaceAfter=No
+28	%	%	SYM	_	_	25	obl	_	start_char=756|end_char=757|SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	start_char=757|end_char=758|SpacesAfter=\n
+
+# text = На конференции ITF World 2024 глава компании AMD Лиза Су поделилась успехами и планами по повышению энергоэффективности вычислительных узлов.
+# sent_id = 20
+1	На	на	ADP	_	_	2	case	_	start_char=759|end_char=761
+2	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=762|end_char=773
+3	ITF	ITF	PROPN	_	Foreign=Yes	2	nmod	_	start_char=774|end_char=777
+4	World	World	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=778|end_char=783
+5	2024	2024	NUM	_	NumType=Card	3	appos	_	start_char=784|end_char=788
+6	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=789|end_char=794
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=795|end_char=803|SpacesAfter=\n
+8	AMD	AMD	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=804|end_char=807|SpacesAfter=\n
+9	Лиза	Лиза	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	start_char=808|end_char=812
+10	Су	Су	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	flat:name	_	start_char=813|end_char=815
+11	поделилась	делиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=816|end_char=826
+12	успехами	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	start_char=827|end_char=835
+13	и	и	CCONJ	_	_	14	cc	_	start_char=836|end_char=837
+14	планами	план	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	conj	_	start_char=838|end_char=845
+15	по	по	ADP	_	_	16	case	_	start_char=846|end_char=848
+16	повышению	повышение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=849|end_char=858
+17	энергоэффективности	энергоэффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=859|end_char=878
+18	вычислительных	вычислительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	start_char=879|end_char=893
+19	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=894|end_char=899|SpaceAfter=No
+20	.	.	PUNCT	_	_	11	punct	_	start_char=899|end_char=900
+
+# text = В 2014 году AMD взяла на себя обязательство повысить эффективность мобильных процессоров на 25% к 2020 году (25x20).
+# sent_id = 21
+1	В	в	ADP	_	_	3	case	_	start_char=901|end_char=902
+2	2014	2014	ADJ	_	Degree=Pos	3	amod	_	start_char=903|end_char=907
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=908|end_char=912
+4	AMD	AMD	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=913|end_char=916
+5	взяла	брать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=917|end_char=922
+6	на	на	ADP	_	_	7	case	_	start_char=923|end_char=925
+7	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	obl	_	start_char=926|end_char=930
+8	обязательство	обязательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=931|end_char=944
+9	повысить	повысить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	obl	_	start_char=945|end_char=953
+10	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=954|end_char=967
+11	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=968|end_char=977
+12	процессоров	процессор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=978|end_char=989
+13	на	на	ADP	_	_	15	case	_	start_char=990|end_char=992
+14	25	25	NUM	_	NumType=Card	15	nummod	_	start_char=993|end_char=995|SpaceAfter=No
+15	%	%	SYM	_	_	9	obl	_	start_char=995|end_char=996
+16	к	к	ADP	_	_	18	case	_	start_char=997|end_char=998
+17	2020	2020	ADJ	_	Degree=Pos	18	amod	_	start_char=999|end_char=1003
+18	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=1004|end_char=1008
+19	(	(	PUNCT	_	_	20	punct	_	start_char=1009|end_char=1010|SpaceAfter=No
+20	25x20	25x20	NUM	_	NumType=Card	18	parataxis	_	start_char=1010|end_char=1015|SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	start_char=1015|end_char=1016|SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	start_char=1016|end_char=1017
+
+# text = Компания превзошла эту цель, достигнув эффективности 31,7%.
+# sent_id = 22
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1018|end_char=1026
+2	превзошла	превзойти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1027|end_char=1036
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=1037|end_char=1040
+4	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1041|end_char=1045|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=1045|end_char=1046|SpacesAfter=\n
+6	достигнув	достичь	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=1047|end_char=1056|SpacesAfter=\n
+7	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=1057|end_char=1070
+8	31,7	31,7	NUM	_	NumType=Card	9	nummod	_	start_char=1071|end_char=1075|SpaceAfter=No
+9	%	%	SYM	_	_	6	obl	_	start_char=1075|end_char=1076|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	start_char=1076|end_char=1077|SpacesAfter=\n
+
+# text = В 2021 году AMD осознала экспоненциальный рост нагрузок ИИ и требований к энергопотреблению для работы этих сложных систем.
+# sent_id = 23
+1	В	в	ADP	_	_	3	case	_	start_char=1078|end_char=1079
+2	2021	2021	ADJ	_	Degree=Pos	3	amod	_	start_char=1080|end_char=1084
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=1085|end_char=1089
+4	AMD	AMD	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=1090|end_char=1093
+5	осознала	осознать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1094|end_char=1102
+6	экспоненциальный	экспоненциальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1103|end_char=1119
+7	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1120|end_char=1124
+8	нагрузок	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=1125|end_char=1133
+9	ИИ	ИИ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=1134|end_char=1136
+10	и	и	CCONJ	_	_	11	cc	_	start_char=1137|end_char=1138
+11	требований	требование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	conj	_	start_char=1139|end_char=1149
+12	к	к	ADP	_	_	13	case	_	start_char=1150|end_char=1151
+13	энергопотреблению	энергопотребление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=1152|end_char=1169
+14	для	для	ADP	_	_	15	case	_	start_char=1170|end_char=1173
+15	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=1174|end_char=1180
+16	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	18	det	_	start_char=1181|end_char=1185
+17	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	start_char=1186|end_char=1193
+18	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=1194|end_char=1200|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	start_char=1200|end_char=1201
+
+# text = Чтобы помочь снизить энергопотребление, AMD установила цель - повышение энергоэффективности вычислительных узлов в 30 раз к 2025 году (30x25).
+# sent_id = 24
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	start_char=1202|end_char=1207
+2	помочь	помочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=1208|end_char=1214
+3	снизить	снизить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=1215|end_char=1222
+4	энергопотребление	энергопотребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=1223|end_char=1240|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=1240|end_char=1241
+6	AMD	AMD	PROPN	_	Foreign=Yes	7	nsubj	_	start_char=1242|end_char=1245
+7	установила	установить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1246|end_char=1256
+8	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1257|end_char=1261
+9	-	-	PUNCT	_	_	10	punct	_	start_char=1262|end_char=1263
+10	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	parataxis	_	start_char=1264|end_char=1273
+11	энергоэффективности	энергоэффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1274|end_char=1293
+12	вычислительных	вычислительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=1294|end_char=1308
+13	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=1309|end_char=1314
+14	в	в	ADP	_	_	16	case	_	start_char=1315|end_char=1316
+15	30	30	NUM	_	NumType=Card	16	nummod	_	start_char=1317|end_char=1319
+16	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=1320|end_char=1323
+17	к	к	ADP	_	_	19	case	_	start_char=1324|end_char=1325
+18	2025	2025	ADJ	_	Degree=Pos	19	amod	_	start_char=1326|end_char=1330
+19	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=1331|end_char=1335
+20	(	(	PUNCT	_	_	21	punct	_	start_char=1336|end_char=1337|SpaceAfter=No
+21	30x25	30x25	NUM	_	NumType=Card	19	parataxis	_	start_char=1337|end_char=1342|SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	start_char=1342|end_char=1343|SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	start_char=1343|end_char=1344
+
+# text = Достичь этого планируется за счет нескольких ключевых направлений.
+# sent_id = 25
+1	Достичь	достичь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj:pass	_	start_char=1345|end_char=1352
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=1353|end_char=1358
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=1359|end_char=1370
+4	за	за	ADP	_	_	8	case	_	start_char=1371|end_char=1373
+5	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	fixed	_	start_char=1374|end_char=1378
+6	нескольких	несколько	NUM	_	Case=Gen|NumType=Card	8	nummod	_	start_char=1379|end_char=1389
+7	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=1390|end_char=1398
+8	направлений	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	start_char=1399|end_char=1410|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	start_char=1410|end_char=1411|SpacesAfter=\n
+
+# text = Во-первых, компания делает ставку на совершенствование техпроцесса и компоновки чипов, являющихся основой производства CPU и GPU.
+# sent_id = 26
+1	Во-первых	во-первых	ADV	_	Degree=Pos	4	parataxis	_	start_char=1412|end_char=1421|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1421|end_char=1422
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1423|end_char=1431
+4	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1432|end_char=1438
+5	ставку	ставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1439|end_char=1445
+6	на	на	ADP	_	_	7	case	_	start_char=1446|end_char=1448
+7	совершенствование	совершенствование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=1449|end_char=1466
+8	техпроцесса	техпроцесса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1467|end_char=1478
+9	и	и	CCONJ	_	_	10	cc	_	start_char=1479|end_char=1480
+10	компоновки	компоновка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	start_char=1481|end_char=1491
+11	чипов	чип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=1492|end_char=1497|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=1497|end_char=1498
+13	являющихся	являться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	acl	_	start_char=1499|end_char=1509
+14	основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	start_char=1510|end_char=1517
+15	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=1518|end_char=1530
+16	CPU	CPU	PROPN	_	Foreign=Yes	15	appos	_	start_char=1531|end_char=1534
+17	и	и	CCONJ	_	_	18	cc	_	start_char=1535|end_char=1536
+18	GPU	GPU	PROPN	_	Foreign=Yes	16	conj	_	start_char=1537|end_char=1540|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	start_char=1540|end_char=1541
+
+# text = Новые транзисторы Gate-All-Around (GAA) на базе 3-нм техпроцесса обещают повышение как производительности, так и энергоэффективности.
+# sent_id = 27
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=1542|end_char=1547
+2	транзисторы	транзистор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=1548|end_char=1559
+3	Gate-All-Around	Gate-All-Around	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=1560|end_char=1575
+4	(	(	PUNCT	_	_	5	punct	_	start_char=1576|end_char=1577|SpaceAfter=No
+5	GAA	GAA	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=1577|end_char=1580|SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	start_char=1580|end_char=1581
+7	на	на	ADP	_	_	8	case	_	start_char=1582|end_char=1584
+8	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=1585|end_char=1589
+9	3-нм	3-и	NUM	_	NumType=Card	10	nummod	_	start_char=1590|end_char=1594
+10	техпроцесса	техпроцесса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=1595|end_char=1606
+11	обещают	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1607|end_char=1614
+12	повышение	повышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1615|end_char=1624
+13	как	как	SCONJ	_	_	14	cc	_	start_char=1625|end_char=1628
+14	производительности	производительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=1629|end_char=1647|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	start_char=1647|end_char=1648
+16	так	так	ADV	_	Degree=Pos	18	cc	_	start_char=1649|end_char=1652
+17	и	и	PART	_	_	16	fixed	_	start_char=1653|end_char=1654
+18	энергоэффективности	энергоэффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	start_char=1655|end_char=1674|SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	start_char=1674|end_char=1675|SpacesAfter=\n
+
+# text = Во-вторых, AMD активно внедряет специализированное аппаратное обеспечение для работы с ИИ - нейронные процессоры (NPU).
+# sent_id = 28
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	5	parataxis	_	start_char=1676|end_char=1685|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1685|end_char=1686
+3	AMD	AMD	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=1687|end_char=1690
+4	активно	активно	ADV	_	Degree=Pos	5	advmod	_	start_char=1691|end_char=1698
+5	внедряет	внедрять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1699|end_char=1707
+6	специализированное	специализированный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=1708|end_char=1726
+7	аппаратное	аппаратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=1727|end_char=1737
+8	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1738|end_char=1749
+9	для	для	ADP	_	_	10	case	_	start_char=1750|end_char=1753
+10	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=1754|end_char=1760
+11	с	с	ADP	_	_	15	case	_	start_char=1761|end_char=1762
+12	ИИ	ИИ	PROPN	_	_	14	compound	_	start_char=1763|end_char=1765
+13	-	-	PUNCT	_	_	12	punct	_	start_char=1766|end_char=1767
+14	нейронные	нейронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=1768|end_char=1777
+15	процессоры	процессор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	start_char=1778|end_char=1788
+16	(	(	PUNCT	_	_	17	punct	_	start_char=1789|end_char=1790|SpaceAfter=No
+17	NPU	NPU	PROPN	_	Foreign=Yes	15	parataxis	_	start_char=1790|end_char=1793|SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	start_char=1793|end_char=1794|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	start_char=1794|end_char=1795
+
+# text = В начале года компания представила первый настольный процессор Ryzen 8700G со встроенным NPU, который позволит разгрузить основной процессор и снизить энергопотребление.
+# sent_id = 29
+1	В	в	ADP	_	_	2	case	_	start_char=1796|end_char=1797
+2	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	start_char=1798|end_char=1804
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1805|end_char=1809
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1810|end_char=1818
+5	представила	представить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1819|end_char=1830
+6	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1831|end_char=1837
+7	настольный	настольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1838|end_char=1848
+8	процессор	процессор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1849|end_char=1858
+9	Ryzen	Ryzen	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=1859|end_char=1864
+10	8700G	8700G	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=1865|end_char=1870
+11	со	с	ADP	_	_	13	case	_	start_char=1871|end_char=1873
+12	встроенным	встроить	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	start_char=1874|end_char=1884
+13	NPU	NPU	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=1885|end_char=1888|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1888|end_char=1889
+15	который	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj	_	start_char=1890|end_char=1897
+16	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=1898|end_char=1906
+17	разгрузить	разгрузить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=1907|end_char=1917
+18	основной	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=1918|end_char=1926
+19	процессор	процессор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=1927|end_char=1936
+20	и	и	CCONJ	_	_	21	cc	_	start_char=1937|end_char=1938
+21	снизить	снизить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	conj	_	start_char=1939|end_char=1946
+22	энергопотребление	энергопотребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	start_char=1947|end_char=1964|SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	start_char=1964|end_char=1965|SpacesAfter=\n
+
+# text = Наконец, AMD фокусируется на системной оптимизации и совместной разработке программного и аппаратного обеспечения.
+# sent_id = 30
+1	Наконец	наконец	ADV	_	Degree=Pos	4	parataxis	_	start_char=1966|end_char=1973|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1973|end_char=1974
+3	AMD	AMD	PROPN	_	Foreign=Yes	4	nsubj	_	start_char=1975|end_char=1978
+4	фокусируется	фокусироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1979|end_char=1991
+5	на	на	ADP	_	_	7	case	_	start_char=1992|end_char=1994
+6	системной	системный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1995|end_char=2004
+7	оптимизации	оптимизация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=2005|end_char=2016
+8	и	и	CCONJ	_	_	10	cc	_	start_char=2017|end_char=2018
+9	совместной	совместный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2019|end_char=2029
+10	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	start_char=2030|end_char=2040
+11	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=2041|end_char=2053
+12	и	и	CCONJ	_	_	13	cc	_	start_char=2054|end_char=2055
+13	аппаратного	аппаратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	start_char=2056|end_char=2067
+14	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=2068|end_char=2079|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	start_char=2079|end_char=2080
+
+# text = Оптимизация позволит сократить энергозатраты на перемещение данных внутри кластеров компьютеров, а совместная разработка ПО и аппаратного обеспечения - повысить эффективность работы алгоритмов ИИ с новыми NPU.
+# sent_id = 31
+1	Оптимизация	оптимизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2081|end_char=2092
+2	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=2093|end_char=2101
+3	сократить	сократить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=2102|end_char=2111
+4	энергозатраты	энергозатраты	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=2112|end_char=2125
+5	на	на	ADP	_	_	6	case	_	start_char=2126|end_char=2128
+6	перемещение	перемещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=2129|end_char=2140
+7	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	start_char=2141|end_char=2147
+8	внутри	внутри	ADV	_	Degree=Pos	9	advmod	_	start_char=2148|end_char=2154
+9	кластеров	кластер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=2155|end_char=2164
+10	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=2165|end_char=2176|SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	start_char=2176|end_char=2177
+12	а	а	CCONJ	_	_	14	cc	_	start_char=2178|end_char=2179
+13	совместная	совместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=2180|end_char=2190
+14	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=2191|end_char=2201
+15	ПО	ПО	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=2202|end_char=2204
+16	и	и	CCONJ	_	_	18	cc	_	start_char=2205|end_char=2206
+17	аппаратного	аппаратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=2207|end_char=2218
+18	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	start_char=2219|end_char=2230
+19	-	-	PUNCT	_	_	20	punct	_	start_char=2231|end_char=2232
+20	повысить	повысить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=2233|end_char=2241
+21	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=2242|end_char=2255
+22	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=2256|end_char=2262
+23	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	start_char=2263|end_char=2273
+24	ИИ	ИИ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=2274|end_char=2276
+25	с	с	ADP	_	_	27	case	_	start_char=2277|end_char=2278
+26	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	start_char=2279|end_char=2285
+27	NPU	NPU	PROPN	_	Foreign=Yes	23	nmod	_	start_char=2286|end_char=2289|SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	start_char=2289|end_char=2290|SpacesAfter=\n
+
+# text = Лиза Су уверена в достижении цели 30x25, но амбиции компании не ограничиваются этим.
+# sent_id = 32
+1	Лиза	Лиза	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2291|end_char=2295
+2	Су	Су	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=2296|end_char=2298
+3	уверена	уверенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=2299|end_char=2306
+4	в	в	ADP	_	_	5	case	_	start_char=2307|end_char=2308
+5	достижении	достижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=2309|end_char=2319
+6	цели	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=2320|end_char=2324
+7	30x25	30x25	NUM	_	NumType=Card	6	nummod:entity	_	start_char=2325|end_char=2330|SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	start_char=2330|end_char=2331
+9	но	но	CCONJ	_	_	13	cc	_	start_char=2332|end_char=2334
+10	амбиции	амбиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=2335|end_char=2342
+11	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=2343|end_char=2351
+12	не	не	PART	_	_	13	advmod	_	start_char=2352|end_char=2354
+13	ограничиваются	ограничиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=2355|end_char=2369
+14	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	start_char=2370|end_char=2374|SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	start_char=2374|end_char=2375
+
+# text = По ее словам, к 2027 году возможно достичь показателя в 100x.
+# sent_id = 33
+1	По	по	ADP	_	_	3	case	_	start_char=2376|end_char=2378
+2	ее	ее	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=2379|end_char=2381
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	start_char=2382|end_char=2388|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=2388|end_char=2389
+5	к	к	ADP	_	_	7	case	_	start_char=2390|end_char=2391
+6	2027	2027	ADJ	_	Degree=Pos	7	amod	_	start_char=2392|end_char=2396
+7	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=2397|end_char=2401
+8	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=2402|end_char=2410
+9	достичь	достичь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=2411|end_char=2418
+10	показателя	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=2419|end_char=2429
+11	в	в	ADP	_	_	12	case	_	start_char=2430|end_char=2431
+12	100x	100x	NUM	_	NumType=Card	10	nmod	_	start_char=2432|end_char=2436|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	start_char=2436|end_char=2437|SpaceAfter=No
+

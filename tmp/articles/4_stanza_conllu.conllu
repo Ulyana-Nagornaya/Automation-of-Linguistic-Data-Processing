@@ -1,0 +1,372 @@
+# text = Как устроена преступная организация, ответственная за недавние крупные нарушения безопасности?
+# sent_id = 45
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=3
+2	устроена	устроить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=4|end_char=12
+3	преступная	преступный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=13|end_char=23
+4	организация	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	start_char=24|end_char=35|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=35|end_char=36
+6	ответственная	ответственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=37|end_char=50
+7	за	за	ADP	_	_	10	case	_	start_char=51|end_char=53
+8	недавние	недавний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=54|end_char=62
+9	крупные	крупный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=63|end_char=70
+10	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obl	_	start_char=71|end_char=80
+11	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=81|end_char=93|SpaceAfter=No
+12	?	?	PUNCT	_	_	2	punct	_	start_char=93|end_char=94|SpacesAfter=\n
+
+# text = В киберпреступной группировке Scattered Spider, ответственной за прошлогодний ряд взломов американских отелей, насчитывается порядка 1000 человек, сообщил в минувшую пятницу, 24 мая, старший представитель ФБР.
+# sent_id = 46
+1	В	в	ADP	_	_	3	case	_	start_char=95|end_char=96
+2	киберпреступной	киберпреступный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=97|end_char=112
+3	группировке	группировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	start_char=113|end_char=124
+4	Scattered	Scattered	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=125|end_char=134
+5	Spider	Spider	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=135|end_char=141|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=141|end_char=142
+7	ответственной	ответственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=143|end_char=156
+8	за	за	ADP	_	_	10	case	_	start_char=157|end_char=159
+9	прошлогодний	прошлогодний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=160|end_char=172
+10	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=173|end_char=176
+11	взломов	взлом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=177|end_char=184
+12	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=185|end_char=197
+13	отелей	отель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=198|end_char=204|SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	start_char=204|end_char=205
+15	насчитывается	насчитываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=206|end_char=219
+16	порядка	порядка	ADP	_	_	18	case	_	start_char=220|end_char=227
+17	1000	1000	NUM	_	NumType=Card	18	nummod	_	start_char=228|end_char=232
+18	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	start_char=233|end_char=240|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=240|end_char=241
+20	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	parataxis	_	start_char=242|end_char=249
+21	в	в	ADP	_	_	23	case	_	start_char=250|end_char=251
+22	минувшую	минувший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=252|end_char=260
+23	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	start_char=261|end_char=268|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=268|end_char=269
+25	24	24	ADJ	_	_	20	obl	_	start_char=270|end_char=272
+26	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	flat	_	start_char=273|end_char=276|SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	start_char=276|end_char=277
+28	старший	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=278|end_char=285
+29	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=286|end_char=299
+30	ФБР	ФБР	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	start_char=300|end_char=303|SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	start_char=303|end_char=304|SpacesAfter=\n
+
+# text = На недавней конференции Sleuthcon, посвящённой киберпреступности, Брайан Ворндран, помощник директора киберподразделения ФБР, охарактеризовал Scattered Spider как «очень большую и разрозненную группу», большинство участников которой не знакомы друг с другом.
+# sent_id = 47
+1	На	на	ADP	_	_	3	case	_	start_char=305|end_char=307|SpacesAfter=\n
+2	недавней	недавний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=308|end_char=316|SpacesAfter=\n
+3	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	start_char=317|end_char=328
+4	Sleuthcon	Sleuthcon	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=329|end_char=338|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=338|end_char=339|SpacesAfter=\n
+6	посвящённой	посвятить	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=340|end_char=351
+7	киберпреступности	киберпреступность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=352|end_char=369|SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	start_char=369|end_char=370
+9	Брайан	Брайан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=371|end_char=377
+10	Ворндран	Ворндран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	start_char=378|end_char=386|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=386|end_char=387
+12	помощник	помощник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	start_char=388|end_char=396
+13	директора	директор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=397|end_char=406
+14	киберподразделения	киберподразделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=407|end_char=425
+15	ФБР	ФБР	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=426|end_char=429|SpaceAfter=No
+16	,	,	PUNCT	_	_	9	punct	_	start_char=429|end_char=430
+17	охарактеризовал	характеризовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=431|end_char=446
+18	Scattered	Scattered	PROPN	_	Foreign=Yes	17	obj	_	start_char=447|end_char=456
+19	Spider	Spider	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=457|end_char=463
+20	как	как	SCONJ	_	_	26	mark	_	start_char=464|end_char=467
+21	«	"	PUNCT	_	_	26	punct	_	start_char=468|end_char=469|SpaceAfter=No
+22	очень	очень	ADV	_	Degree=Pos	23	obl	_	start_char=469|end_char=474
+23	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=475|end_char=482
+24	и	и	CCONJ	_	_	25	cc	_	start_char=483|end_char=484
+25	разрозненную	разрознить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	conj	_	start_char=485|end_char=497
+26	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=498|end_char=504|SpaceAfter=No
+27	»	"	PUNCT	_	_	26	punct	_	start_char=504|end_char=505|SpaceAfter=No
+28	,	,	PUNCT	_	_	33	punct	_	start_char=505|end_char=506
+29	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	start_char=507|end_char=518
+30	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	start_char=519|end_char=529
+31	которой	который	PRON	_	Case=Gen|PronType=Int,Rel	30	nmod	_	start_char=530|end_char=537
+32	не	не	PART	_	_	33	advmod	_	start_char=538|end_char=540
+33	знакомы	знакомый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	26	acl:relcl	_	start_char=541|end_char=548
+34	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	obl	_	start_char=549|end_char=553
+35	с	с	ADP	_	_	34	fixed	_	start_char=554|end_char=555
+36	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	fixed	_	start_char=556|end_char=562|SpaceAfter=No
+37	.	.	PUNCT	_	_	17	punct	_	start_char=562|end_char=563|SpacesAfter=\n
+
+# text = По данным ведомства, Scattered Spider возникла из онлайн-сообщества «the Com» и также известна как «0ktapus» или UNC3944.
+# sent_id = 48
+1	По	по	ADP	_	_	2	case	_	start_char=564|end_char=566
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	7	parataxis	_	start_char=567|end_char=573
+3	ведомства	ведомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=574|end_char=583|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	start_char=583|end_char=584
+5	Scattered	Scattered	PROPN	_	Foreign=Yes	7	nsubj	_	start_char=585|end_char=594
+6	Spider	Spider	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=595|end_char=601
+7	возникла	возникнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=602|end_char=610
+8	из	из	ADP	_	_	11	case	_	start_char=611|end_char=613
+9	онлайн	онлайн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	compound	_	start_char=614|end_char=620|SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	start_char=620|end_char=621|SpaceAfter=No
+11	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	start_char=621|end_char=631
+12	«	"	PUNCT	_	_	13	punct	_	start_char=632|end_char=633|SpaceAfter=No
+13	the	the	X	_	Foreign=Yes	11	flat:foreign	_	start_char=633|end_char=636
+14	Com	Com	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=637|end_char=640|SpaceAfter=No
+15	»	"	PUNCT	_	_	14	punct	_	start_char=640|end_char=641
+16	и	и	CCONJ	_	_	18	cc	_	start_char=642|end_char=643
+17	также	также	ADV	_	Degree=Pos	18	obl	_	start_char=644|end_char=649
+18	известна	известный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	7	conj	_	start_char=650|end_char=658
+19	как	как	SCONJ	_	_	21	mark	_	start_char=659|end_char=662
+20	«	"	PUNCT	_	_	21	punct	_	start_char=663|end_char=664|SpaceAfter=No
+21	0ktapus	0ktapus	X	_	Foreign=Yes	18	obl	_	start_char=664|end_char=671|SpaceAfter=No
+22	»	"	PUNCT	_	_	21	punct	_	start_char=671|end_char=672
+23	или	или	CCONJ	_	_	24	cc	_	start_char=673|end_char=676
+24	UNC3944	UNC3944	PROPN	_	Foreign=Yes	21	conj	_	start_char=677|end_char=684|SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	start_char=684|end_char=685
+
+# text = Ворндран также сообщил, что сейчас Scattered Spider входит в тройку главных мировых киберугроз наряду с иностранными разведывательными агентствами.
+# sent_id = 49
+1	Ворндран	Ворндран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=686|end_char=694
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=695|end_char=700
+3	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=701|end_char=708|SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	start_char=708|end_char=709
+5	что	что	SCONJ	_	_	9	mark	_	start_char=710|end_char=713
+6	сейчас	сейчас	ADV	_	Degree=Pos	9	advmod	_	start_char=714|end_char=720
+7	Scattered	Scattered	PROPN	_	Foreign=Yes	9	nsubj	_	start_char=721|end_char=730
+8	Spider	Spider	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=731|end_char=737
+9	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=738|end_char=744
+10	в	в	ADP	_	_	11	case	_	start_char=745|end_char=746
+11	тройку	тройка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=747|end_char=753
+12	главных	главный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=754|end_char=761
+13	мировых	мировой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=762|end_char=769
+14	киберугроз	киберугроз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=770|end_char=780
+15	наряду	наряду	ADV	_	Degree=Pos	9	advmod	_	start_char=781|end_char=787
+16	с	с	ADP	_	_	19	case	_	start_char=788|end_char=789
+17	иностранными	иностранный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	start_char=790|end_char=802
+18	разведывательными	разведывательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	start_char=803|end_char=820
+19	агентствами	агентство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	obl	_	start_char=821|end_char=832|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	start_char=832|end_char=833|SpacesAfter=\n
+
+# text = Большинство участников группировки — молодые люди из США и Великобритании.
+# sent_id = 50
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=834|end_char=845
+2	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=846|end_char=856
+3	группировки	группировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=857|end_char=868
+4	—	—	PUNCT	_	_	1	punct	_	start_char=869|end_char=870
+5	молодые	молодой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=871|end_char=878
+6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=879|end_char=883
+7	из	из	ADP	_	_	8	case	_	start_char=884|end_char=886
+8	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	start_char=887|end_char=890
+9	и	и	CCONJ	_	_	10	cc	_	start_char=891|end_char=892
+10	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	start_char=893|end_char=907|SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	start_char=907|end_char=908
+
+# text = Группа специализируется на социальной инженерии, включая проникновение в привилегированные сети через службы поддержки.
+# sent_id = 51
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=909|end_char=915
+2	специализируется	специализироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=916|end_char=932
+3	на	на	ADP	_	_	5	case	_	start_char=933|end_char=935
+4	социальной	социальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=936|end_char=946
+5	инженерии	инженерия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=947|end_char=956|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=956|end_char=957
+7	включая	включая	ADV	_	Degree=Pos	5	advmod	_	start_char=958|end_char=965
+8	проникновение	проникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=966|end_char=979
+9	в	в	ADP	_	_	11	case	_	start_char=980|end_char=981
+10	привилегированные	привилегировать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	start_char=982|end_char=999
+11	сети	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	start_char=1000|end_char=1004
+12	через	через	ADP	_	_	13	case	_	start_char=1005|end_char=1010
+13	службы	служба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	start_char=1011|end_char=1017
+14	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=1018|end_char=1027|SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	start_char=1027|end_char=1028|SpacesAfter=\n
+
+# text = После проникновения в сеть, Scattered Spider демонстрирует высокую эффективность в передвижении по системам и извлечении данных, иногда сотрудничая с группами, занимающимися вымогательством.
+# sent_id = 52
+1	После	после	ADP	_	_	2	case	_	start_char=1029|end_char=1034
+2	проникновения	проникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=1035|end_char=1048
+3	в	в	ADP	_	_	4	case	_	start_char=1049|end_char=1050
+4	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1051|end_char=1055|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=1055|end_char=1056
+6	Scattered	Scattered	PROPN	_	Foreign=Yes	8	nsubj	_	start_char=1057|end_char=1066
+7	Spider	Spider	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=1067|end_char=1073
+8	демонстрирует	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1074|end_char=1087
+9	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1088|end_char=1095
+10	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=1096|end_char=1109
+11	в	в	ADP	_	_	12	case	_	start_char=1110|end_char=1111
+12	передвижении	передвижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	start_char=1112|end_char=1124
+13	по	по	ADP	_	_	14	case	_	start_char=1125|end_char=1127
+14	системам	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	start_char=1128|end_char=1136
+15	и	и	CCONJ	_	_	16	cc	_	start_char=1137|end_char=1138
+16	извлечении	извлечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	conj	_	start_char=1139|end_char=1149
+17	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	16	nmod	_	start_char=1150|end_char=1156|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=1156|end_char=1157
+19	иногда	иногда	ADV	_	Degree=Pos	20	advmod	_	start_char=1158|end_char=1164
+20	сотрудничая	сотрудничать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	start_char=1165|end_char=1176
+21	с	с	ADP	_	_	22	case	_	start_char=1177|end_char=1178
+22	группами	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	start_char=1179|end_char=1187|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=1187|end_char=1188
+24	занимающимися	заниматься	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	22	acl	_	start_char=1189|end_char=1202
+25	вымогательством	вымогательство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	start_char=1203|end_char=1218|SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	start_char=1218|end_char=1219|SpacesAfter=\n
+
+# text = Атака на MGM Resorts и Caesars Entertainment в прошлом году, которая привела к сбоям в работе казино и отелей в Лас-Вегасе, значительно укрепила статус Scattered Spider в киберпреступном сообществе.
+# sent_id = 53
+1	Атака	атака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	start_char=1220|end_char=1225
+2	на	на	ADP	_	_	3	case	_	start_char=1226|end_char=1228|SpacesAfter=\n
+3	MGM	MGM	PROPN	_	Foreign=Yes	1	nmod	_	start_char=1229|end_char=1232
+4	Resorts	Resorts	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1233|end_char=1240|SpacesAfter=\n
+5	и	и	CCONJ	_	_	6	cc	_	start_char=1241|end_char=1242|SpacesAfter=\n
+6	Caesars	Caesars	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1243|end_char=1250
+7	Entertainment	Entertainment	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1251|end_char=1264|SpacesAfter=\n
+8	в	в	ADP	_	_	10	case	_	start_char=1265|end_char=1266
+9	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=1267|end_char=1274
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	start_char=1275|end_char=1279|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=1279|end_char=1280
+12	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	13	nsubj	_	start_char=1281|end_char=1288
+13	привела	привести	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=1289|end_char=1296
+14	к	к	ADP	_	_	15	case	_	start_char=1297|end_char=1298
+15	сбоям	сбой	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	start_char=1299|end_char=1304
+16	в	в	ADP	_	_	17	case	_	start_char=1305|end_char=1306
+17	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=1307|end_char=1313
+18	казино	казино	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=1314|end_char=1320
+19	и	и	CCONJ	_	_	20	cc	_	start_char=1321|end_char=1322
+20	отелей	отель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	start_char=1323|end_char=1329
+21	в	в	ADP	_	_	22	case	_	start_char=1330|end_char=1331
+22	Лас-Вегасе	Лас-Вегас	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	start_char=1332|end_char=1342|SpaceAfter=No
+23	,	,	PUNCT	_	_	1	punct	_	start_char=1342|end_char=1343
+24	значительно	значительно	ADV	_	Degree=Pos	25	advmod	_	start_char=1344|end_char=1355
+25	укрепила	укрепить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1356|end_char=1364
+26	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	start_char=1365|end_char=1371
+27	Scattered	Scattered	PROPN	_	Foreign=Yes	26	flat:foreign	_	start_char=1372|end_char=1381
+28	Spider	Spider	PROPN	_	Foreign=Yes	26	flat:foreign	_	start_char=1382|end_char=1388
+29	в	в	ADP	_	_	31	case	_	start_char=1389|end_char=1390
+30	киберпреступном	киберпреступный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	start_char=1391|end_char=1406
+31	сообществе	сообщество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	start_char=1407|end_char=1417|SpaceAfter=No
+32	.	.	PUNCT	_	_	25	punct	_	start_char=1417|end_char=1418|SpacesAfter=\n
+
+# text = Примечательно, что участники Scattered Spider активно формируют внутри своего большого сообщества различные малые группы, которые иногда сотрудничают или даже конкурируют друг с другом.
+# sent_id = 54
+1	Примечательно	примечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=1419|end_char=1432|SpaceAfter=No
+2	,	,	PUNCT	_	_	8	punct	_	start_char=1432|end_char=1433
+3	что	что	SCONJ	_	_	8	mark	_	start_char=1434|end_char=1437
+4	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=1438|end_char=1447
+5	Scattered	Scattered	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1448|end_char=1457
+6	Spider	Spider	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1458|end_char=1464
+7	активно	активно	ADV	_	Degree=Pos	8	advmod	_	start_char=1465|end_char=1472
+8	формируют	формировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=1473|end_char=1482
+9	внутри	внутри	ADP	_	_	12	advmod	_	start_char=1483|end_char=1489
+10	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=1490|end_char=1496
+11	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=1497|end_char=1505
+12	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=1506|end_char=1516
+13	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=1517|end_char=1526
+14	малые	малый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=1527|end_char=1532
+15	группы	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1533|end_char=1539|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	start_char=1539|end_char=1540
+17	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	19	nsubj	_	start_char=1541|end_char=1548
+18	иногда	иногда	ADV	_	Degree=Pos	19	advmod	_	start_char=1549|end_char=1555
+19	сотрудничают	сотрудничать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=1556|end_char=1568
+20	или	или	CCONJ	_	_	22	cc	_	start_char=1569|end_char=1572
+21	даже	даже	PART	_	_	22	advmod	_	start_char=1573|end_char=1577
+22	конкурируют	конкурировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	start_char=1578|end_char=1589
+23	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	obl	_	start_char=1590|end_char=1594
+24	с	с	ADP	_	_	23	fixed	_	start_char=1595|end_char=1596
+25	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	fixed	_	start_char=1597|end_char=1603|SpaceAfter=No
+26	.	.	PUNCT	_	_	1	punct	_	start_char=1603|end_char=1604
+
+# text = Некоторые группы и вовсе специализируются на жёстких методах, включая нападения и угрозы, чтобы вынудить жертв заплатить выкуп.
+# sent_id = 55
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	2	det	_	start_char=1605|end_char=1614
+2	группы	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=1615|end_char=1621
+3	и	и	PART	_	_	4	advmod	_	start_char=1622|end_char=1623
+4	вовсе	вовсе	ADV	_	Degree=Pos	5	advmod	_	start_char=1624|end_char=1629
+5	специализируются	специализироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1630|end_char=1646
+6	на	на	ADP	_	_	8	case	_	start_char=1647|end_char=1649
+7	жёстких	жесткий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	start_char=1650|end_char=1657
+8	методах	метод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	start_char=1658|end_char=1665|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1665|end_char=1666
+10	включая	включая	ADV	_	Degree=Pos	8	advmod	_	start_char=1667|end_char=1674
+11	нападения	нападение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=1675|end_char=1684
+12	и	и	CCONJ	_	_	13	cc	_	start_char=1685|end_char=1686
+13	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	conj	_	start_char=1687|end_char=1693|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1693|end_char=1694
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	start_char=1695|end_char=1700
+16	вынудить	вынудить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=1701|end_char=1709
+17	жертв	жертва	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=1710|end_char=1715
+18	заплатить	платить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=1716|end_char=1725
+19	выкуп	выкуп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=1726|end_char=1731|SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	start_char=1731|end_char=1732|SpacesAfter=\n
+
+# text = ФБР критикуют за отсутствие заметных успехов в арестах членов Scattered Spider, однако представители агентства утверждают, что просто не разглашают публично все свои действия, а работа реально ведётся, причём весьма активная.
+# sent_id = 56
+1	ФБР	ФБР	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=1733|end_char=1736
+2	критикуют	критиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1737|end_char=1746
+3	за	за	ADP	_	_	4	case	_	start_char=1747|end_char=1749
+4	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=1750|end_char=1760
+5	заметных	заметный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=1761|end_char=1769
+6	успехов	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=1770|end_char=1777
+7	в	в	ADP	_	_	8	case	_	start_char=1778|end_char=1779
+8	арестах	арест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=1780|end_char=1787
+9	членов	член	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=1788|end_char=1794
+10	Scattered	Scattered	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=1795|end_char=1804
+11	Spider	Spider	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=1805|end_char=1811|SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	start_char=1811|end_char=1812
+13	однако	однако	ADV	_	Degree=Pos	16	advmod	_	start_char=1813|end_char=1819
+14	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=1820|end_char=1833
+15	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=1834|end_char=1843
+16	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1844|end_char=1854|SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	start_char=1854|end_char=1855
+18	что	что	SCONJ	_	_	21	mark	_	start_char=1856|end_char=1859
+19	просто	просто	PART	_	_	21	advmod	_	start_char=1860|end_char=1866
+20	не	не	PART	_	_	21	advmod	_	start_char=1867|end_char=1869
+21	разглашают	разглашать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	start_char=1870|end_char=1880
+22	публично	публично	ADV	_	Degree=Pos	21	advmod	_	start_char=1881|end_char=1889
+23	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	25	det	_	start_char=1890|end_char=1893
+24	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	start_char=1894|end_char=1898
+25	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	start_char=1899|end_char=1907|SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	start_char=1907|end_char=1908
+27	а	а	CCONJ	_	_	30	cc	_	start_char=1909|end_char=1910
+28	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj:pass	_	start_char=1911|end_char=1917
+29	реально	реально	ADV	_	Degree=Pos	30	advmod	_	start_char=1918|end_char=1925
+30	ведётся	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	conj	_	start_char=1926|end_char=1933|SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	start_char=1933|end_char=1934
+32	причём	причем	CCONJ	_	_	34	cc	_	start_char=1935|end_char=1941
+33	весьма	весьма	ADV	_	Degree=Pos	34	obl	_	start_char=1942|end_char=1948
+34	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	conj	_	start_char=1949|end_char=1957|SpaceAfter=No
+35	.	.	PUNCT	_	_	2	punct	_	start_char=1957|end_char=1958|SpacesAfter=\n
+
+# text = Исследователи призывают уделять киберпреступности столько же внимания и ресурсов, сколько направляется на борьбу с государственными киберугрозами.
+# sent_id = 57
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1959|end_char=1972
+2	призывают	призывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1973|end_char=1982
+3	уделять	уделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=1983|end_char=1990
+4	киберпреступности	киберпреступность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	start_char=1991|end_char=2008
+5	столько	столько	ADV	_	Degree=Pos	7	advmod	_	start_char=2009|end_char=2016
+6	же	же	PART	_	_	5	advmod	_	start_char=2017|end_char=2019
+7	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obj	_	start_char=2020|end_char=2028
+8	и	и	CCONJ	_	_	9	cc	_	start_char=2029|end_char=2030
+9	ресурсов	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	start_char=2031|end_char=2039|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=2039|end_char=2040
+11	сколько	сколько	ADV	_	Degree=Pos	12	nsubj	_	start_char=2041|end_char=2048
+12	направляется	направлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	start_char=2049|end_char=2061
+13	на	на	ADP	_	_	14	case	_	start_char=2062|end_char=2064
+14	борьбу	борьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=2065|end_char=2071
+15	с	с	ADP	_	_	17	case	_	start_char=2072|end_char=2073
+16	государственными	государственный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	start_char=2074|end_char=2090
+17	киберугрозами	киберугроз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	start_char=2091|end_char=2104|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	start_char=2104|end_char=2105
+
+# text = По словам Селены Ларсон из компании Proofpoint, «обычные организации больше подвержены киберпреступности, чем атакам со стороны правительств».
+# sent_id = 58
+1	По	по	ADP	_	_	2	case	_	start_char=2106|end_char=2108
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	parataxis	_	start_char=2109|end_char=2115
+3	Селены	Селены	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=2116|end_char=2122
+4	Ларсон	Ларсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	flat:name	_	start_char=2123|end_char=2129
+5	из	из	ADP	_	_	6	case	_	start_char=2130|end_char=2132
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=2133|end_char=2141
+7	Proofpoint	Proofpoint	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=2142|end_char=2152|SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	start_char=2152|end_char=2153
+9	«	"	PUNCT	_	_	13	punct	_	start_char=2154|end_char=2155|SpaceAfter=No
+10	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	start_char=2155|end_char=2162
+11	организации	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=2163|end_char=2174
+12	больше	больше	ADV	_	Degree=Cmp	13	obl	_	start_char=2175|end_char=2181
+13	подвержены	подверженный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=2182|end_char=2192
+14	киберпреступности	киберпреступность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	iobj	_	start_char=2193|end_char=2210|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=2210|end_char=2211
+16	чем	чем	SCONJ	_	_	17	mark	_	start_char=2212|end_char=2215
+17	атакам	атака	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	advcl	_	start_char=2216|end_char=2222
+18	со	с	ADP	_	_	20	case	_	start_char=2223|end_char=2225
+19	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	fixed	_	start_char=2226|end_char=2233
+20	правительств	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	start_char=2234|end_char=2246|SpaceAfter=No
+21	»	"	PUNCT	_	_	13	punct	_	start_char=2246|end_char=2247|SpaceAfter=No
+22	.	.	PUNCT	_	_	13	punct	_	start_char=2247|end_char=2248|SpaceAfter=No
+

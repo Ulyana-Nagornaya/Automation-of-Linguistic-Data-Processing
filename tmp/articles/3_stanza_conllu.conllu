@@ -1,0 +1,337 @@
+# text = В стране одобрен законопроект, который позволит регулировать деятельность крупнейших IT-компаний.
+# sent_id = 34
+1	В	в	ADP	_	_	2	case	_	start_char=0|end_char=1
+2	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=2|end_char=8
+3	одобрен	одобрить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=9|end_char=16
+4	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=17|end_char=29|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	start_char=29|end_char=30
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=31|end_char=38
+7	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=39|end_char=47
+8	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=48|end_char=60
+9	деятельность	деятельность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=61|end_char=73
+10	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	12	amod	_	start_char=74|end_char=84
+11	IT-	it-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=85|end_char=88|SpaceAfter=No
+12	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=88|end_char=96|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=96|end_char=97|SpacesAfter=\n
+
+# text = Парламент Великобритании принял законопроект, который может привести к тому, что технологические гиганты, такие как Google и Meta*, будут вынуждены платить британским СМИ за размещение новостного контента на своих платформах.
+# sent_id = 35
+1	Парламент	парламент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=98|end_char=107
+2	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=108|end_char=122|SpacesAfter=\n
+3	принял	принять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=123|end_char=129|SpacesAfter=\n
+4	законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=130|end_char=142|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	start_char=142|end_char=143
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=144|end_char=151
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=152|end_char=157
+8	привести	привести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=158|end_char=166
+9	к	к	ADP	_	_	10	case	_	start_char=167|end_char=168
+10	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=169|end_char=173|SpaceAfter=No
+11	,	,	PUNCT	_	_	23	punct	_	start_char=173|end_char=174
+12	что	что	SCONJ	_	_	23	mark	_	start_char=175|end_char=178
+13	технологические	технологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=179|end_char=194
+14	гиганты	гигант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	start_char=195|end_char=202|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=202|end_char=203
+16	такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	14	det	_	start_char=204|end_char=209
+17	как	как	SCONJ	_	_	18	mark	_	start_char=210|end_char=213|SpacesAfter=\n
+18	Google	Гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obl	_	start_char=214|end_char=220|SpacesAfter=\n
+19	и	и	CCONJ	_	_	20	cc	_	start_char=221|end_char=222
+20	Meta*	Meta*	PROPN	_	Foreign=Yes	18	conj	_	start_char=223|end_char=228|SpaceAfter=No
+21	,	,	PUNCT	_	_	14	punct	_	start_char=228|end_char=229
+22	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	start_char=230|end_char=235
+23	вынуждены	вынужденный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	acl	_	start_char=236|end_char=245
+24	платить	платить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	start_char=246|end_char=253
+25	британским	британский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	start_char=254|end_char=264
+26	СМИ	сми	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	24	iobj	_	start_char=265|end_char=268
+27	за	за	ADP	_	_	28	case	_	start_char=269|end_char=271
+28	размещение	размещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	start_char=272|end_char=282
+29	новостного	новостной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=283|end_char=293
+30	контента	контент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=294|end_char=302
+31	на	на	ADP	_	_	33	case	_	start_char=303|end_char=305
+32	своих	свой	DET	_	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	33	det	_	start_char=306|end_char=311
+33	платформах	платформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	28	nmod	_	start_char=312|end_char=322|SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	start_char=322|end_char=323|SpacesAfter=\n
+
+# text = За него уже проголосовала палата лордов.
+# sent_id = 36
+1	За	за	ADP	_	_	2	case	_	start_char=324|end_char=326
+2	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=327|end_char=331
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	start_char=332|end_char=335
+4	проголосовала	голосовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=336|end_char=349
+5	палата	палата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=350|end_char=356
+6	лордов	лорд	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=357|end_char=363|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	start_char=363|end_char=364|SpacesAfter=\n
+
+# text = Новый закон позволит назначать технологическим компаниям, таким как Google, Facebook** и Apple , статус «стратегических игроков на рынке» и регулировать их деятельность с помощью подразделения Управления по конкуренции и рынкам (CMA) - Digital Markets Unit (DMU).
+# sent_id = 37
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=365|end_char=370
+2	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=371|end_char=376
+3	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=377|end_char=385
+4	назначать	назначать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=386|end_char=395
+5	технологическим	технологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	start_char=396|end_char=411
+6	компаниям	компания	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	iobj	_	start_char=412|end_char=421|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=421|end_char=422
+8	таким	такой	DET	_	Case=Ins|Number=Plur|PronType=Dem	6	det	_	start_char=423|end_char=428
+9	как	как	SCONJ	_	_	10	mark	_	start_char=429|end_char=432
+10	Google	Гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	start_char=433|end_char=439|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=439|end_char=440
+12	Facebook**	Facebook**	PROPN	_	Foreign=Yes	10	conj	_	start_char=441|end_char=451
+13	и	и	CCONJ	_	_	14	cc	_	start_char=452|end_char=453|SpacesAfter=\n
+14	Apple	Эппл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	start_char=454|end_char=459|SpacesAfter=\n
+15	,	,	PUNCT	_	_	16	punct	_	start_char=460|end_char=461
+16	статус	статус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	start_char=462|end_char=468
+17	«	"	PUNCT	_	_	19	punct	_	start_char=469|end_char=470|SpaceAfter=No
+18	стратегических	стратегический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	start_char=470|end_char=484
+19	игроков	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=485|end_char=492
+20	на	на	ADP	_	_	21	case	_	start_char=493|end_char=495
+21	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	start_char=496|end_char=501|SpaceAfter=No
+22	»	"	PUNCT	_	_	19	punct	_	start_char=501|end_char=502
+23	и	и	CCONJ	_	_	24	cc	_	start_char=503|end_char=504
+24	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	start_char=505|end_char=517
+25	их	их	DET	_	Poss=Yes|PronType=Prs	26	det	_	start_char=518|end_char=520
+26	деятельность	деятельность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	start_char=521|end_char=533
+27	с	с	ADP	_	_	29	case	_	start_char=534|end_char=535
+28	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	fixed	_	start_char=536|end_char=543
+29	подразделения	подразделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	start_char=544|end_char=557
+30	Управления	Управление	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	start_char=558|end_char=568
+31	по	по	ADP	_	_	32	case	_	start_char=569|end_char=571
+32	конкуренции	конкуренция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	30	nmod	_	start_char=572|end_char=583
+33	и	и	CCONJ	_	_	34	cc	_	start_char=584|end_char=585
+34	рынкам	рынок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	32	conj	_	start_char=586|end_char=592
+35	(	(	PUNCT	_	_	36	punct	_	start_char=593|end_char=594|SpaceAfter=No
+36	CMA	CMA	PROPN	_	Foreign=Yes	34	flat:foreign	_	start_char=594|end_char=597|SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	start_char=597|end_char=598
+38	-	-	PUNCT	_	_	39	punct	_	start_char=599|end_char=600
+39	Digital	Digital	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=601|end_char=608
+40	Markets	Markets	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=609|end_char=616
+41	Unit	Unit	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=617|end_char=621
+42	(	(	PUNCT	_	_	43	punct	_	start_char=622|end_char=623|SpaceAfter=No
+43	DMU	DMU	PROPN	_	Foreign=Yes	39	flat:foreign	_	start_char=623|end_char=626|SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	start_char=626|end_char=627|SpaceAfter=No
+45	.	.	PUNCT	_	_	3	punct	_	start_char=627|end_char=628|SpacesAfter=\n
+
+# text = DMU сможет заставить технологические компании платить за новостной контент, который появляется на их платформах, а также будет разрабатывать кодексы поведения, гарантирующие, что компании действуют в интересах потребителей.
+# sent_id = 38
+1	DMU	DMU	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=629|end_char=632
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=633|end_char=639
+3	заставить	заставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=640|end_char=649
+4	технологические	технологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=650|end_char=665
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=666|end_char=674
+6	платить	платить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=675|end_char=682
+7	за	за	ADP	_	_	9	case	_	start_char=683|end_char=685
+8	новостной	новостной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=686|end_char=695
+9	контент	контент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=696|end_char=703|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=703|end_char=704
+11	который	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj	_	start_char=705|end_char=712
+12	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	start_char=713|end_char=723
+13	на	на	ADP	_	_	15	case	_	start_char=724|end_char=726
+14	их	их	DET	_	Poss=Yes|PronType=Prs	15	det	_	start_char=727|end_char=729
+15	платформах	платформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	start_char=730|end_char=740|SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	start_char=740|end_char=741
+17	а	а	CCONJ	_	_	20	cc	_	start_char=742|end_char=743
+18	также	также	PART	_	_	17	fixed	_	start_char=744|end_char=749
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=750|end_char=755
+20	разрабатывать	разрабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	start_char=756|end_char=769
+21	кодексы	кодекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=770|end_char=777
+22	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	start_char=778|end_char=787|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=787|end_char=788
+24	гарантирующие	гарантировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	acl	_	start_char=789|end_char=802|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	start_char=802|end_char=803
+26	что	что	SCONJ	_	_	28	mark	_	start_char=804|end_char=807
+27	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	start_char=808|end_char=816
+28	действуют	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	start_char=817|end_char=826
+29	в	в	ADP	_	_	30	case	_	start_char=827|end_char=828
+30	интересах	интерес	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	28	obl	_	start_char=829|end_char=838
+31	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	start_char=839|end_char=851|SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	start_char=851|end_char=852|SpacesAfter=\n
+
+# text = Законопроект наделяет DMU полномочиями штрафовать технологические компании на 10% от их годового оборота, если они злоупотребляют своим положением на рынке.
+# sent_id = 39
+1	Законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=853|end_char=865
+2	наделяет	наделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=866|end_char=874
+3	DMU	DMU	PROPN	_	Foreign=Yes	2	obj	_	start_char=875|end_char=878
+4	полномочиями	полномочие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl	_	start_char=879|end_char=891
+5	штрафовать	штрафовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=892|end_char=902
+6	технологические	технологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=903|end_char=918
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=919|end_char=927
+8	на	на	ADP	_	_	10	case	_	start_char=928|end_char=930
+9	10	10	NUM	_	NumType=Card	10	nummod	_	start_char=931|end_char=933|SpaceAfter=No
+10	%	%	SYM	_	_	5	obl	_	start_char=933|end_char=934
+11	от	от	ADP	_	_	14	case	_	start_char=935|end_char=937
+12	их	их	DET	_	Poss=Yes|PronType=Prs	14	det	_	start_char=938|end_char=940
+13	годового	годовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=941|end_char=949
+14	оборота	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=950|end_char=957|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	start_char=957|end_char=958
+16	если	если	SCONJ	_	_	18	mark	_	start_char=959|end_char=963
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=964|end_char=967
+18	злоупотребляют	злоупотреблять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=968|end_char=982
+19	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	start_char=983|end_char=988
+20	положением	положение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	start_char=989|end_char=999
+21	на	на	ADP	_	_	22	case	_	start_char=1000|end_char=1002
+22	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	start_char=1003|end_char=1008|SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	start_char=1008|end_char=1009|SpacesAfter=\n
+
+# text = Закон призван обеспечить честную конкуренцию и защитить права потребителей в интернете.
+# sent_id = 40
+1	Закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	start_char=1010|end_char=1015
+2	призван	призвать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1016|end_char=1023
+3	обеспечить	обеспечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=1024|end_char=1034
+4	честную	честный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1035|end_char=1042
+5	конкуренцию	конкуренция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1043|end_char=1054
+6	и	и	CCONJ	_	_	7	cc	_	start_char=1055|end_char=1056
+7	защитить	защитить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	start_char=1057|end_char=1065
+8	права	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=1066|end_char=1071
+9	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=1072|end_char=1084
+10	в	в	ADP	_	_	11	case	_	start_char=1085|end_char=1086
+11	интернете	интернет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=1087|end_char=1096|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=1096|end_char=1097
+
+# text = Среди ключевых положений - обязанность IT-компаний : вести торговлю на справедливых и разумных условиях; иметь эффективные процессы рассмотрения жалоб и споров с пользователями; предоставлять пользователям четкую, релевантную, точную и доступную информацию о своей деятельности; заранее уведомлять пользователей о существенных изменениях, которые могут повлиять на них; представлять пользователям варианты и настройки по умолчанию таким образом, чтобы пользователи могли принимать осознанные решения.
+# sent_id = 41
+1	Среди	среди	ADP	_	_	3	case	_	start_char=1098|end_char=1103
+2	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=1104|end_char=1112
+3	положений	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	root	_	start_char=1113|end_char=1122
+4	-	-	PUNCT	_	_	5	punct	_	start_char=1123|end_char=1124
+5	обязанность	обязанность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1125|end_char=1136
+6	IT-	it-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=1137|end_char=1140|SpaceAfter=No
+7	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=1140|end_char=1148|SpacesAfter=\n
+8	:	:	PUNCT	_	_	9	punct	_	start_char=1149|end_char=1150|SpacesAfter=\n
+9	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	parataxis	_	start_char=1151|end_char=1156
+10	торговлю	торговля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=1157|end_char=1165
+11	на	на	ADP	_	_	15	case	_	start_char=1166|end_char=1168
+12	справедливых	справедливый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	start_char=1169|end_char=1181
+13	и	и	CCONJ	_	_	14	cc	_	start_char=1182|end_char=1183
+14	разумных	разумный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	conj	_	start_char=1184|end_char=1192
+15	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	start_char=1193|end_char=1201|SpaceAfter=No
+16	;	;	PUNCT	_	_	17	punct	_	start_char=1201|end_char=1202|SpacesAfter=\n
+17	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	conj	_	start_char=1203|end_char=1208
+18	эффективные	эффективный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	start_char=1209|end_char=1220
+19	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	start_char=1221|end_char=1229
+20	рассмотрения	рассмотрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	start_char=1230|end_char=1242
+21	жалоб	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	start_char=1243|end_char=1248
+22	и	и	CCONJ	_	_	23	cc	_	start_char=1249|end_char=1250
+23	споров	спор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	start_char=1251|end_char=1257
+24	с	с	ADP	_	_	25	case	_	start_char=1258|end_char=1259
+25	пользователями	пользователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	start_char=1260|end_char=1274|SpaceAfter=No
+26	;	;	PUNCT	_	_	27	punct	_	start_char=1274|end_char=1275|SpacesAfter=\n
+27	предоставлять	предоставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	conj	_	start_char=1276|end_char=1289
+28	пользователям	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	iobj	_	start_char=1290|end_char=1303
+29	четкую	четкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=1304|end_char=1310|SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	start_char=1310|end_char=1311
+31	релевантную	релевантный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	start_char=1312|end_char=1323|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=1323|end_char=1324
+33	точную	точный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	start_char=1325|end_char=1331
+34	и	и	CCONJ	_	_	35	cc	_	start_char=1332|end_char=1333
+35	доступную	доступный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	start_char=1334|end_char=1343
+36	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=1344|end_char=1354
+37	о	о	ADP	_	_	39	case	_	start_char=1355|end_char=1356
+38	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	39	det	_	start_char=1357|end_char=1362
+39	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	nmod	_	start_char=1363|end_char=1375|SpaceAfter=No
+40	;	;	PUNCT	_	_	42	punct	_	start_char=1375|end_char=1376|SpacesAfter=\n
+41	заранее	заранее	ADV	_	Degree=Pos	42	advmod	_	start_char=1377|end_char=1384
+42	уведомлять	уведомлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	conj	_	start_char=1385|end_char=1395
+43	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	42	obj	_	start_char=1396|end_char=1409
+44	о	о	ADP	_	_	46	case	_	start_char=1410|end_char=1411
+45	существенных	существенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	46	amod	_	start_char=1412|end_char=1424
+46	изменениях	изменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	42	obl	_	start_char=1425|end_char=1435|SpaceAfter=No
+47	,	,	PUNCT	_	_	49	punct	_	start_char=1435|end_char=1436
+48	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	49	nsubj	_	start_char=1437|end_char=1444
+49	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	acl:relcl	_	start_char=1445|end_char=1450
+50	повлиять	влиять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	xcomp	_	start_char=1451|end_char=1459
+51	на	на	ADP	_	_	52	case	_	start_char=1460|end_char=1462
+52	них	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	50	obl	_	start_char=1463|end_char=1466|SpaceAfter=No
+53	;	;	PUNCT	_	_	54	punct	_	start_char=1466|end_char=1467|SpacesAfter=\n
+54	представлять	представлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	conj	_	start_char=1468|end_char=1480
+55	пользователям	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	54	iobj	_	start_char=1481|end_char=1494
+56	варианты	вариант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	54	obj	_	start_char=1495|end_char=1503
+57	и	и	CCONJ	_	_	58	cc	_	start_char=1504|end_char=1505
+58	настройки	настройка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	56	conj	_	start_char=1506|end_char=1515
+59	по	по	ADP	_	_	60	case	_	start_char=1516|end_char=1518
+60	умолчанию	умолчание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	58	nmod	_	start_char=1519|end_char=1528
+61	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	62	det	_	start_char=1529|end_char=1534
+62	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	54	obl	_	start_char=1535|end_char=1542|SpaceAfter=No
+63	,	,	PUNCT	_	_	66	punct	_	start_char=1542|end_char=1543
+64	чтобы	чтобы	SCONJ	_	Mood=Cnd	66	mark	_	start_char=1544|end_char=1549
+65	пользователи	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	66	nsubj	_	start_char=1550|end_char=1562
+66	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	61	ccomp	_	start_char=1563|end_char=1568
+67	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	66	xcomp	_	start_char=1569|end_char=1578
+68	осознанные	осознанный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	69	amod	_	start_char=1579|end_char=1589
+69	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	67	obj	_	start_char=1590|end_char=1597|SpaceAfter=No
+70	.	.	PUNCT	_	_	3	punct	_	start_char=1597|end_char=1598|SpacesAfter=\n
+
+# text = Например, Google может быть обязана уведомлять издателей о значительных изменениях в своем поисковом алгоритме.
+# sent_id = 42
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	start_char=1599|end_char=1607|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1607|end_char=1608
+3	Google	Гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=1609|end_char=1615
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1616|end_char=1621
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	aux:pass	_	start_char=1622|end_char=1626
+6	обязана	обязать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	xcomp	_	start_char=1627|end_char=1634
+7	уведомлять	уведомлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=1635|end_char=1645
+8	издателей	издатель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=1646|end_char=1655
+9	о	о	ADP	_	_	11	case	_	start_char=1656|end_char=1657
+10	значительных	значительный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	start_char=1658|end_char=1670
+11	изменениях	изменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	start_char=1671|end_char=1681
+12	в	в	ADP	_	_	15	case	_	start_char=1682|end_char=1683
+13	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	start_char=1684|end_char=1689
+14	поисковом	поисковый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=1690|end_char=1699
+15	алгоритме	алгоритм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	start_char=1700|end_char=1709|SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	start_char=1709|end_char=1710|SpacesAfter=\n
+
+# text = Законопроект также запрещает технологическим платформам «применять дискриминационные условия или политику» по отношению к определенным пользователям и использовать свое положение для «более благоприятного продвижения собственных продуктов по сравнению с продуктами других компаний».
+# sent_id = 43
+1	Законопроект	законопроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1711|end_char=1723
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=1724|end_char=1729
+3	запрещает	запрещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1730|end_char=1739
+4	технологическим	технологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	start_char=1740|end_char=1755
+5	платформам	платформа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	iobj	_	start_char=1756|end_char=1766
+6	«	"	PUNCT	_	_	7	punct	_	start_char=1767|end_char=1768|SpaceAfter=No
+7	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=1768|end_char=1777
+8	дискриминационные	дискриминационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=1778|end_char=1795
+9	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=1796|end_char=1803
+10	или	или	CCONJ	_	_	11	cc	_	start_char=1804|end_char=1807
+11	политику	политика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	start_char=1808|end_char=1816|SpaceAfter=No
+12	»	"	PUNCT	_	_	7	punct	_	start_char=1816|end_char=1817
+13	по	по	ADP	_	_	17	case	_	start_char=1818|end_char=1820
+14	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	fixed	_	start_char=1821|end_char=1830
+15	к	к	ADP	_	_	13	fixed	_	start_char=1831|end_char=1832
+16	определенным	определенный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	start_char=1833|end_char=1845
+17	пользователям	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	start_char=1846|end_char=1859
+18	и	и	CCONJ	_	_	19	cc	_	start_char=1860|end_char=1861
+19	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=1862|end_char=1874
+20	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	start_char=1875|end_char=1879
+21	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=1880|end_char=1889
+22	для	для	ADP	_	_	26	case	_	start_char=1890|end_char=1893
+23	«	"	PUNCT	_	_	26	punct	_	start_char=1894|end_char=1895|SpaceAfter=No
+24	более	более	ADV	_	Degree=Cmp	25	obl	_	start_char=1895|end_char=1900
+25	благоприятного	благоприятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=1901|end_char=1915
+26	продвижения	продвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	start_char=1916|end_char=1927
+27	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	start_char=1928|end_char=1939
+28	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	start_char=1940|end_char=1949
+29	по	по	ADP	_	_	32	case	_	start_char=1950|end_char=1952
+30	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	29	fixed	_	start_char=1953|end_char=1962
+31	с	с	ADP	_	_	29	fixed	_	start_char=1963|end_char=1964
+32	продуктами	продукт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	start_char=1965|end_char=1975
+33	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	start_char=1976|end_char=1982
+34	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	start_char=1983|end_char=1991|SpaceAfter=No
+35	»	"	PUNCT	_	_	26	punct	_	start_char=1991|end_char=1992|SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	start_char=1992|end_char=1993|SpacesAfter=\n
+
+# text = * Компания Meta и её продукты признаны экстремистскими, их деятельность запрещена на территории РФ.
+# sent_id = 44
+1	*	*	PUNCT	_	_	7	punct	_	start_char=1994|end_char=1995
+2	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	start_char=1996|end_char=2004
+3	Meta	Meta	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=2005|end_char=2009
+4	и	и	CCONJ	_	_	6	cc	_	start_char=2010|end_char=2011
+5	её	ее	DET	_	Poss=Yes|PronType=Prs	6	det	_	start_char=2012|end_char=2014
+6	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=2015|end_char=2023
+7	признаны	признать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=2024|end_char=2032
+8	экстремистскими	экстремистский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	obl	_	start_char=2033|end_char=2048|SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	start_char=2048|end_char=2049
+10	их	их	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=2050|end_char=2052
+11	деятельность	деятельность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	start_char=2053|end_char=2065
+12	запрещена	запретить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	start_char=2066|end_char=2075
+13	на	на	ADP	_	_	14	case	_	start_char=2076|end_char=2078
+14	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=2079|end_char=2089
+15	РФ	РФ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=2090|end_char=2092|SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	start_char=2092|end_char=2093|SpaceAfter=No
+

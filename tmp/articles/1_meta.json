@@ -1,0 +1,39 @@
+{
+    "id": 1,
+    "url": "https://www.securitylab.ru/news/548633.php",
+    "title": "Европейские банкоматы вскрывают как консервы: EU ATM Malware стремительно распространяется между хакерами",
+    "date": "2024-05-27 13:30:00",
+    "author": [
+        "Alexander Antipov"
+    ],
+    "topics": [
+        "EU ATM Malware",
+        "банкомат",
+        "вредоносное ПО",
+        "Европа",
+        "финансы",
+        "EU ATM Malware",
+        "банкомат",
+        "вредоносное ПО",
+        "Европа",
+        "финансы"
+    ],
+    "pos_frequencies": {
+        "VERB": 24,
+        "PUNCT": 45,
+        "ADJ": 37,
+        "NOUN": 68,
+        "PART": 5,
+        "SYM": 3,
+        "ADP": 25,
+        "NUM": 8,
+        "PRON": 6,
+        "ADV": 9,
+        "DET": 14,
+        "CCONJ": 7,
+        "PROPN": 20,
+        "SCONJ": 2,
+        "X": 1
+    },
+    "pattern_matches": {}
+}

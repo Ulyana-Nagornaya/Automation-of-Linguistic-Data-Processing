@@ -1,0 +1,38 @@
+{
+    "id": 4,
+    "url": "https://www.securitylab.ru/news/548627.php",
+    "title": "ФБР: молодёжная кибергруппа Scattered Spider насчитывает 1000 человек в своём составе",
+    "date": "2024-05-27 11:20:00",
+    "author": [
+        "Alexander Antipov"
+    ],
+    "topics": [
+        "Scattered Spider",
+        "UNC3944",
+        "ФБР",
+        "США",
+        "Великобритания",
+        "Scattered Spider",
+        "UNC3944",
+        "ФБР",
+        "США",
+        "Великобритания"
+    ],
+    "pos_frequencies": {
+        "VERB": 29,
+        "PUNCT": 54,
+        "ADJ": 34,
+        "ADV": 20,
+        "NOUN": 87,
+        "ADP": 36,
+        "PROPN": 35,
+        "NUM": 1,
+        "SCONJ": 7,
+        "CCONJ": 12,
+        "PRON": 3,
+        "PART": 6,
+        "X": 2,
+        "DET": 4
+    },
+    "pattern_matches": {}
+}
