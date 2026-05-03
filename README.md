@@ -12,15 +12,15 @@ This project consists of two core modules:
 
 ## Key Features  
 ### Web Scraper  
-- 🕵️♂️ **Recursive Crawling**: Discovers articles across multiple pages using seed URLs.  
-- 📄 **Metadata Extraction**: Captures titles, authors, dates (ISO 8601), and topics.  
-- 🔒 **Robust Requests**: Configurable headers, timeouts, and SSL verification.  
+- **Recursive Crawling**: Discovers articles across multiple pages using seed URLs.  
+- **Metadata Extraction**: Captures titles, authors, dates (ISO 8601), and topics.  
+- **Robust Requests**: Configurable headers, timeouts, and SSL verification.  
 
 ### Processing Pipeline  
-- 🧹 **Text Cleaning**: Removes punctuation and normalizes case.  
-- 🔍 **Morphological Analysis**: Generates CoNLL-U annotations via **spaCy-UDPipe** and **Stanza**.  
-- 📊 **POS Visualization**: Creates bar charts of part-of-speech distributions.  
-- 🌐 **Syntactic Pattern Detection**: Identifies dependency structures (e.g., verb-noun-preposition chains).  
+- **Text Cleaning**: Removes punctuation and normalizes case.  
+- **Morphological Analysis**: Generates CoNLL-U annotations via **spaCy-UDPipe** and **Stanza**.  
+- **POS Visualization**: Creates bar charts of part-of-speech distributions.  
+- **Syntactic Pattern Detection**: Identifies dependency structures (e.g., verb-noun-preposition chains).  
 
 ---
 
